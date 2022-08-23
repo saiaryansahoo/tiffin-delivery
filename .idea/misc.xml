@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/DOORSTAVA/app/src/main/res/layout/activity_loginpage.xml" value="0.1308876811594203" />
+        <entry key="..\:/DOORSTAVA/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1655" />
+        <entry key="..\:/DOORSTAVA/app/src/main/res/layout/activity_loginpage.xml" value="0.14666666666666667" />
         <entry key="..\:/DOORSTAVA/app/src/main/res/layout/activity_main.xml" value="0.14130434782608695" />
       </map>
     </option>
