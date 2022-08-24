@@ -2,14 +2,9 @@ package com.example.doorstava;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
 
 public class google_login extends AppCompatActivity {
     GoogleSignInOptions gso;
@@ -29,17 +24,8 @@ public class google_login extends AppCompatActivity {
 
         GoogleSignInAccount acct=GoogleSignIn.getLastSignedInAccount(this);
         if(acct!=null){
-            String personName=acct.getDisplayName();
-            String personEmail=acct.getEmail();
-            name.setText(personName);
-            mail.setText(personEmail); finish(); startActivity(new Intent(google_login.this,MainActivity.class));
+            String personname=acct.getDisplayName();
 
         }
     }
 }
-
-
-
-
-
-
