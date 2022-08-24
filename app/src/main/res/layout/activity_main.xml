@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/mainlogo" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/startbtn"
         android:layout_width="260dp"
         android:layout_height="80dp"
         android:background="#ECECEC"

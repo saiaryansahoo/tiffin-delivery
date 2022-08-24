@@ -16,7 +16,7 @@
         android:theme="@style/Theme.DOORSTAVA"
         tools:targetApi="31">
         <activity
-            android:name=".google_login"
+            android:name=".homescreen"
             android:exported="false" />
         <activity
             android:name=".loginpage"
